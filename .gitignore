@@ -1,0 +1,16 @@
+# Local planning notes
+/llm_game_posttraining_plan.md
+/llm_game_posttraining_plan.md:Zone.Identifier
+
+# Python build and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Generated datasets and experiment artifacts
+/data/generated/
+/runs/

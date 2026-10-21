@@ -1,0 +1,31 @@
+{
+  "count": 200,
+  "dataset": "data/generated/countdown-pilot-v1.jsonl",
+  "min_operations_histogram": {
+    "0": 3,
+    "1": 28,
+    "2": 80,
+    "3": 89
+  },
+  "reference_selection": "Minimum operations, then minimum depth, then deterministic expression ordering",
+  "rules": {
+    "positive_integer_intermediates": true,
+    "target_max": 200,
+    "target_min": 1,
+    "tile_count": 4,
+    "tile_max": 20,
+    "tile_min": 1,
+    "unused_tiles_allowed": true
+  },
+  "sampling": "Uniform independent tiles, then uniform reachable target; reject duplicate identities",
+  "schema_version": 1,
+  "seed": 42,
+  "sha256": "c5d4bb5e0d86d192242b5d38b0c92722b6fdfea25b219e4e0c86ecbbb40e2636",
+  "solution_depth_histogram": {
+    "0": 3,
+    "1": 28,
+    "2": 128,
+    "3": 41
+  },
+  "split": "pilot"
+}

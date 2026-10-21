@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-games"
+version = "0.1.0"
+description = "Verifiable games for language model post-training experiments"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+llm-games = "llm_games.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
